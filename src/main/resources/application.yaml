@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server-bootcoins
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/GeanPaul/config-data-bootcoins
+          default-label: master
+server:
+  port: 8086
+
